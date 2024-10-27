@@ -116,3 +116,25 @@ border: 0;
      background-repeat: no-repeat;
      background-position-x: right;
 }
+
+/* this is the icon section style  */
+
+.line{
+     background-image:  linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+height: 1px;
+width: 1290px;
+border: 0;
+
+}
+.icon-continer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+
+     
+}
+.icon-continer> img{
+     margin-right: 60.42px;
+
+}
