@@ -143,8 +143,8 @@ border: 0;
 
 .Collection {
      width: 100%;
-     margin-right: 120px;
-     margin-left: 110px;
+     
+     
 }
 
 .collection-title{
@@ -159,8 +159,11 @@ border: 0;
 .collection-continer{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-gap: 10px;
+row-gap: 33px;
+column-gap: 43px;
 margin-right: 0px;
+justify-content: space-around;
+align-items: center;
 
 }
 .collection-card{
