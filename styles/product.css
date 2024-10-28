@@ -8,7 +8,10 @@
      font-family: "Poppins", sans-serif;
 }
 
-
+/* this is the body section */
+.b0dy{
+     max-width: 1450px;
+}
 /* this is header section styles */
 .header {
      padding: 20px;
@@ -30,7 +33,6 @@
 
 .nav-title {
      color: #3A3A3A;
-     font-family: 'Poppins';
      font-size: 24px;
      font-weight: 700;
 
@@ -44,7 +46,6 @@ ul>li {
      list-style: none;
      margin-right: 34px;
      color: #E02C6D;
-     font-family: 'Poppins';
      font-size: 16px;
      font-weight: 600;
 
@@ -53,7 +54,6 @@ ul>li {
 ul>li a {
      text-decoration: none;
      color: #3A3A3A;
-     font-family: 'Poppins';
      font-size: 16px;
      font-weight: 600;
      width: 62px;
@@ -75,7 +75,6 @@ ul>li a {
 
 .banner-title {
      color: #3A3A3A;
-     font-family: 'Poppins';
      font-size: 52px;
      font-style: normal;
      font-weight: 700;
@@ -86,7 +85,6 @@ ul>li a {
 
 .btn-head {
      color: #FFF;
-font-family: 'Poppins';
 font-size: 16px;
 font-weight: 700;
 width: 150px;
@@ -100,7 +98,6 @@ border: 0;
 
 .banner-discription {
      color: #3A3A3A;
-     font-family: 'Poppins';
      font-size: 16px;
      font-weight: 600;
      width: 505px;
@@ -115,6 +112,10 @@ border: 0;
      background-position: bottom;
      background-repeat: no-repeat;
      background-position-x: right;
+}
+/* this is main section styles */
+.main{
+width: 100%;
 }
 
 /* this is the icon section style  */
@@ -137,4 +138,48 @@ border: 0;
 .icon-continer> img{
      margin-right: 60.42px;
 
+}
+/* popular collection style section */
+
+.Collection {
+     width: 100%;
+     margin-right: 120px;
+     margin-left: 110px;
+}
+
+.collection-title{
+     text-align: center;
+     margin-top: 100px;
+     margin-bottom: 30px;
+     color: #3A3A3A;
+     font-size: 28px;
+     font-weight: 600;
+
+}
+.collection-continer{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+margin-right: 0px;
+
+}
+.collection-card{
+width: 329px;
+height: 476px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+text-align: center;
+padding-top: 17px;
+margin-right: 0px;
+}
+.card-title{
+color: rgba(0, 0, 0, 0.87);
+font-size: 24px;
+font-weight: 400;
+}
+.card-discription {
+color: #5E6366;
+font-size: 14px;
+font-weight: 700;
 }
